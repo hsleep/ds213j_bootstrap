@@ -12,3 +12,11 @@ $ unzip ds213j_bootstrap-master.zip
 $ cd ds213j_bootstrap-master
 $ sh bootstrap.sh
 ```
+
+## Install (NOT TESTED)
+root login into DS213J
+```
+$ /usr/syno/bin/wget https://github.com/hsleep/ds213j_bootstrap/raw/master/syno-mvam-bootstrap_1.2-7_arm_ds213j.xsh --no-check-certificate
+$ sh syno-mvam-bootstrap_1.2-7_arm_ds213j.xsh
+```
+
