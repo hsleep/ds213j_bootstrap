@@ -7,7 +7,7 @@ Modified CPU checking instruction for DS213J (Marvel Armada-370).
 ## Install
 root login into DS213J
 ```
-$ /usr/syno/bin/wget https://github.com/hsleep/ds213j_bootstrap/archive/master.zip --no-check-certificate
+$ /usr/syno/bin/wget https://github.com/hsleep/ds213j_bootstrap/archive/master.zip --no-check-certificate -O ds213j_bootstrap-master.zip
 $ unzip ds213j_bootstrap-master.zip
 $ cd ds213j_bootstrap-master
 $ sh bootstrap.sh
