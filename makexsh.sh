@@ -2,6 +2,7 @@
 
 OUTPUT='syno-mvam-bootstrap_1.2-7_arm_ds213j.xsh'
 INPUT='bootstrap.sh ipkg.sh ipkg-opt.ipk optware-bootstrap.ipk wget.ipk'
+INPUT='bootstrap'
 
 echo '#!/bin/sh
 echo "Optware Bootstrap for syno-mvam."
